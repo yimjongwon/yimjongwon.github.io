@@ -51,7 +51,7 @@ body {
   font-size: 1.1em;
 }
 
-#sidebar ul li a.clicked {
+#sidebar ul li a.active {
   color: #1abc9c; /* 클릭한 링크 색상 */
 }
 
@@ -75,7 +75,7 @@ h1 {
 h2 {
   font-size: 1.8em;
   margin-top: 20px;
-  color: white;
+  color: #333;
 }
 
 section {
