@@ -89,8 +89,8 @@ footer {
 }
 
 section h2 {
-  border-bottom: 2px solid #ccc; /* 선의 두께와 색상 */
-  padding-bottom: 0.3em;         /* 제목과 선 사이 간격 */
-  margin-bottom: 1em;            /* 선과 본문 사이 간격 */
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  font-size: 20px;
 }
 
