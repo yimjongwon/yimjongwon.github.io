@@ -17,13 +17,15 @@ body {
   width: 100%;
 }
 
+/* 사이드바 */
 #sidebar {
   width: 250px;
-  background-color: white;
-  color: black;
+  background-color: #333; /* 배경 색상 변경 */
+  color: white; /* 글자 색상 변경 */
   padding: 20px;
   position: fixed;
   height: 100%;
+  z-index: 10; /* 다른 요소에 가려지지 않게 설정 */
 }
 
 #sidebar h2 {
@@ -40,16 +42,17 @@ body {
 }
 
 #sidebar ul li a {
-  color: black;
+  color: white; /* 링크 색상 변경 */
   text-decoration: none;
   font-size: 1.1em;
 }
 
-#sidebar ul li a:hover {
-  color: #1abc9c;
+#sidebar ul li a.clicked {
+  color: #1abc9c; /* 클릭한 링크 색상 */
 }
 
-/* 메인 콘텐츠 스타일 */
+
+/* 메인 콘텐츠 */
 #main-content {
   margin-left: 260px;
   padding: 20px;
