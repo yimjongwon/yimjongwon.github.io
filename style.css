@@ -51,7 +51,7 @@ body {
   font-size: 1.1em;
 }
 
-#sidebar ul li a.active {
+#sidebar ul li a:active {
   color: #1abc9c; /* 클릭한 링크 색상 */
 }
 
